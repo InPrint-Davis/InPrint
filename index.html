@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>InPrint at UC Davis</title>
+		<meta name="description" content="InPrint at UC Davis.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/3cbdd69943.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/style.css"/>
+        <script type="text/javascript">
+            var elem = ['#hero', '#about', '#quote', '#issue'];
+			window.addEventListener('load', function() {
+                for(var i = 0; i < elem.length; i++) {
+                    document.querySelector(elem[i]).classList.toggle('nl');
+                }
+			});
+		</script>
+	</head>
+	<body class="home-page">
+        <div class="navbar">
+            <div class="container">
+        		<nav class="dflex">
+                    <div class="col">
+                        <img src="images/logo.png" alt="InPrint Logo" title="InPrint at UC Davis" height="30" width="82.5">
+                    </div>
+                    <ul class="col">
+                        <li class="active"><a href="/">About</a></li>
+                        <li><a href="https://medium.com/inprintatdavis">Blog</a></li>
+                        <li><a href="https://docs.google.com/a/ucdavis.edu/forms/d/e/1FAIpQLSck0FSmGU7NoabeRYtcXzdiWPz3TUbudZJVIAlKUET3Iihjww/viewform" target="_blank">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <section id="hero">
+            <div class="container">
+                <h1>Fostering Relationships Through Casual Conversation</h1>
+                <button class="btn btn-primary">LEARN MORE <i class="fa fa-angle-double-down"></i></button>
+            </div>
+        </section>
+        <div class="main container">
+            <section id="about" class="content-sections">
+                <img src="images/sketches.jpg" alt="Photo of magazine layout sketches" title="Magazine layout sketches" height="400" width="700">
+                <div class="section-info about">
+                    <div class="info-inner">
+                        <h1>About Us</h1>
+                        <p>InPrint Magazine is a student-run publication that caters towards design students and students interested in design. We seek to build a design community and foster relationships within that community through casual conversation.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="quote" class="content-sections">
+                <img src="images/photo-campaign.jpg" id="photoCampaignImage" alt="Photo of group of InPrint members" title="InPrint photo campaign" height="343" width="600">
+                <img src="images/critique.jpg" id="critiqueImage" alt="Photo of Inprint members critiquing layouts" title="InPrint team critique" height="343" width="600">
+                <div class="section-info quote">
+                    <div class="info-inner">
+                        <h1>By encouraging critical design conversations, inspiring growth in students' design work, and promoting accessibility to the design industry, we hope to build a stronger community among design students, alumni, and faculty.</h1>
+                    </div>
+                </div>
+            </section>
+            <section id="issue" class="content-sections">
+                <div class="row">
+                    <div class="col-sm-7 col-sm-push-5 issue-image">
+                        <img src="images/newest-issue.jpg" alt="Mockup of InPrint's first issue" title="InPrint's first issue" height="368" width="526">
+                    </div>
+                    <div class="col-sm-5 col-sm-pull-7 issue-description">
+                        <h2>Issue No. 1</h2>
+                        <h1>First Impressions</h1>
+                        <p>This issue is an introduction to the design community at UC Davis through curated articles, interviews, and galleries of student work. We explore our first impressions of what design is, and how our definition of it changes with time. We get to hear from the perspectives of current students at Davis, recent alumni, and faculty about what design is to them. We hope this magazine leaves you with a great First Impression!</p>
+                        <p>Keep an eye out for the 2017-2018 issue!</p>
+                        <button class="btn btn-disabled">SOLD OUT</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="container">
+                <p>Copyright &copy; 2017 InPrint at UC Davis. All Rights Reserved.</p>
+            </div>
+        </footer>
+		<script src="js/scripts.js" type="text/javascript"></script>
+	</body>
+</html>
